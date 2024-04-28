@@ -29,7 +29,7 @@
 
 <script setup lang="ts">
 import { Expand, Fold, Setting } from "@element-plus/icons-vue";
-import { useLayoutStore } from "../../hooks/layout/useLayout.ts";
+import { useLayoutStore } from "@/hooks/layout/useLayout.ts";
 import { storeToRefs } from "pinia";
 
 const layoutStore = useLayoutStore();

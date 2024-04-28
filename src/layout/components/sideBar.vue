@@ -53,7 +53,7 @@
 <script setup lang="ts">
 // import { Message } from "@element-plus/icons-vue";
 import { computed } from "vue";
-import { useLayoutStore } from "../../hooks/layout/useLayout.ts";
+import { useLayoutStore } from "@/hooks/layout/useLayout.ts";
 
 import {
   Document,
