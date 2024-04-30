@@ -19,7 +19,7 @@ import service from "@/utils/request";
 
 const handlefetch = () => {
   service
-    .post("/data/list", { aaa: 123 })
+    .post("/system/login", { data: { loginName: "admin", password: '123456' } })
     .then((data) => {
       console.log(data);
     })

@@ -4,9 +4,9 @@ import { ElMessage, ElMessageBox } from "element-plus";
 
 // 创建axios实例，设置请求参数
 const service = axios.create({
-  headers: {
-    "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
-  }, //设置请求头
+  // headers: {
+  //   "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+  // }, //设置请求头
   baseURL: import.meta.env.VITE_BASE_URL, // 域名配置
   withCredentials: true, // 跨域请求时是否需要使用凭证
   timeout: 30000, // 请求超时时间
